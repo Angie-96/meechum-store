@@ -1,0 +1,27 @@
+:root {
+  --mainBlue: #08b5e0;
+  --lightBlue: #45f8d4;
+  --mainGray: #e4e4e4;
+  --mainWhite: #f3f3f3;
+  --mainDark: #5e6472;
+  --mainPink: #ffa69e;
+}
+
+body {
+  font-family: 'Open Sans' !important;
+  background: var(--mainGray) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
